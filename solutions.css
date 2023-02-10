@@ -111,5 +111,65 @@
     0% {right: 20%;}
     50% {right: calc(100% - 60px);}
     100% {right: 20%;}
-   
+}
+/* esercizio 13 */
+.ex-13-button:hover .ex-13-top-white{
+    animation: 2s linear moveTopTotal;
+ }
+ @keyframes moveTopTotal {
+     0% {
+        left: 10%;
+        top: -10px
+     }
+     25% {
+        left: 100%;
+        top: -10px;
+     }
+     40% {
+        left: 100%;
+        top: 100%;
+     }
+     55% {
+        left: 0;
+        top: 100%;
+     }
+     75%{
+        top: -10px;
+        left: 0;
+     }
+     100%{
+        left: 10%;
+        top: -10px
+     }
+        
+ }
+ .ex-13-button:hover .ex-13-bottom-white{
+     animation: 2s linear moveBottomTotal;
+  }
+  @keyframes moveBottomTotal {
+    0% {
+       right: 10%;
+       bottom: -10px
+    }
+    25% {
+        right: 100%;
+        bottom: -10px;
+    }
+    40% {
+        right: 100%;
+        bottom: 100%;
+    }
+    55% {
+        right: 0;
+        bottom: 100%;
+    }
+    75%{
+        bottom: -10px;
+        right: 0;
+    }
+    100%{
+        right: 10%;
+        bottom: -10px
+    }
+       
 }
