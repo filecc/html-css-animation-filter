@@ -1,5 +1,5 @@
-# Boolean Academy - Boolando Products Details
-This is a solution to the exercice of - Classe #92 - 08 Febbraio 2023.
+# Boolean Academy - Filter and animations
+This is a solution to the exercice of - Classe #92 - 10 Febbraio 2023.
 
 
 ## Table of contents
