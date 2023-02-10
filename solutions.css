@@ -48,5 +48,21 @@
     transition: all linear 1s;
 }
 .ex-6-img:hover{
-    filter: saturate(0);
+    filter: grayscale(100%);;
 }
+/* esercizio 7 */
+.ex-7-img{
+    transition: all 3s;
+}
+.ex-7-img:hover{
+    filter: drop-shadow(8px 8px 10px red) invert(75%);
+}
+/* esercizio 8 */
+.ex-8-img{
+    transition: all 3s;
+}
+.ex-8-img:hover{
+    filter: blur(5px) saturate(75%);
+    border-radius: 30px;
+}
+/* esercizio 9 */
