@@ -88,11 +88,28 @@
 }
 /* esercizio 11 */
 .ex-11-icon:hover{
-    animation: 2s linear youSpinMeRound;
+    animation: 2s linear youSpinMeRoundNotTooMuch;
 }
-@keyframes youSpinMeRound {
+@keyframes youSpinMeRoundNotTooMuch {
     0% {transform: rotate(0);}
     75% {transform: rotate(270deg);}
     100%{transform: rotate(0);}
 }
 /* esercizio 12 */
+.ex-12-button:hover .ex-12-top-white{
+   animation: 1s linear moveTop reverse;
+}
+@keyframes moveTop {
+    0% {left: 10%;}
+    50% {left: calc(100% - 60px);}
+    100% {left: 10%;}
+}
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: 1s linear moveBottom reverse;
+ }
+ @keyframes moveBottom {
+    0% {right: 20%;}
+    50% {right: calc(100% - 60px);}
+    100% {right: 20%;}
+   
+}
