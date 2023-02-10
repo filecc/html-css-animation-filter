@@ -85,5 +85,21 @@
 @keyframes youSpinMeRound {
     0% {transform: rotate(0deg);}
     100% {transform: rotate(360deg);}
-   
 }
+/* esercizio 11 */
+.ex-11-icon{
+    animation-name: youSpinMeRound; 
+    animation-timing-function:ease-out;
+    animation-iteration-count: infinite; 
+ }
+
+@keyframes youSpinMeRound {
+    0% {transform: rotate(0);}
+    75% {transform: rotate(270deg);}
+    100%{transform: rotate(0);}
+    
+}
+.ex-11-icon:hover{
+    animation-duration: 2s;
+}
+/* esercizio 12 */
