@@ -1,3 +1,8 @@
+:root {
+    --square_w: 100px;
+    --square_h: 100px;
+}
+
 /* esercizio 1 */
 .ex-1-square{
     transition: all 2s;
@@ -25,4 +30,23 @@
 }
 .ex-4-square:hover{
     opacity: 0;
+}
+/* eserzicio 5 */
+.ex-5-square{
+    transition: all linear 1s;
+}
+.ex-5-square:hover{
+    width: calc(var(--square_w) + 40px);
+    height: calc(var(--square_h) + 40px);
+}
+.ex-5-square:active{
+    width: calc(var(--square_w) - 80px);
+    height: calc(var(--square_h) - 80px);
+}
+/* esercuzio 6 */
+.ex-6-img{
+    transition: all linear 1s;
+}
+.ex-6-img:hover{
+    filter: saturate(0);
 }
