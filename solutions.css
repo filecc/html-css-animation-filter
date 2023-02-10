@@ -66,3 +66,24 @@
     border-radius: 30px;
 }
 /* esercizio 9 */
+.ex-9-img{
+    transition: all 3s;
+}
+.ex-9-img:hover{
+    filter: brightness(80%) saturate(75%);
+    border-radius: 30px;
+    width: 50%;
+}
+/* esercizio 10 */
+.ex-10-icon{
+    animation-name: youSpinMeRound; 
+    animation-duration: 1s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite; 
+ }
+
+@keyframes youSpinMeRound {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+   
+}
